@@ -15,7 +15,7 @@
 
  	
  	 	 <form action="" method="get">
-
+<br>
 			  <input type="text" id="ip" class="ip" placeholder="Paste Your IP" style="margin-left: 100px"></input><br>
 
     <div class="col-md-5 col-sm-3 col-xs-6" style="margin-left: 400px;" > <a href="#" class="btn btn-sm animated-button victoria-two" id="D1-on"><img src="arrowup.png" height="100"><br>FORWARD</a> </div>
