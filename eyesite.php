@@ -26,7 +26,7 @@
     <div class="separator"></div>
     <div class="col-md-5 col-sm-3 col-xs-6" style="margin-left: 400px;" > <a href="#" class="btn btn-sm animated-button victoria-four" id="D2-on"><img src="arrowdown.png" height="100"><br>BACKWARD</a> </div>
     <div class="separator3"></div>
-			  <textarea id="logger" class="ip" placeholder="LOGS" readonly style="margin-left: 600px"></textarea>
+		
         </form>
 		<br><br>
 	 </div>
@@ -51,7 +51,6 @@
 					
 					}
 				}
-				logger.textContent="\nD1 Turned ON\n" + document.getElementById("logger").value;
 				$.ajax(settings).done(function (response) {
 				});
 		});
@@ -69,7 +68,6 @@
 					
 					}
 				}
-				logger.textContent="\nD3 Turned ON\n" + document.getElementById("logger").value;
 				$.ajax(settings).done(function (response) {
 				});
 		});
@@ -89,7 +87,6 @@
 					
 					}
 				}
-				logger.textContent="\nD3 Turned OFF\n" + document.getElementById("logger").value;
 				$.ajax(settings).done(function (response) {
 				});
 		});
@@ -108,7 +105,6 @@
 					
 					}
 				}
-				logger.textContent="\nD1 Turned OFF\n" + document.getElementById("logger").value;
 				$.ajax(settings).done(function (response) {
 				});
 		});
@@ -130,7 +126,6 @@
 					
 					}
 				}
-				logger.textContent="\nD2 Turned ON\n" + document.getElementById("logger").value;
 				$.ajax(settings).done(function (response) {
 				});
 		});
@@ -149,7 +144,6 @@
 					
 					}
 				}
-				logger.textContent="\nD2 Turned OFF\n" + document.getElementById("logger").value;
 				$.ajax(settings).done(function (response) {
 					console.log(response);
 				});
