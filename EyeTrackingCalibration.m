@@ -15,10 +15,11 @@ figure(1);
 while true
    data = getsnapshot(vid);
     data = imresize(data,1);
+    data=imcrop(data,[20 20 100 100]);
       diff_im = rgb2gray(data);
 
     subplot(212)
-    piel=~im2bw(diff_im,0.10);
+    piel=~im2bw(diff_im,0.18);
     %     --
     piel=bwmorph(piel,'close');
     piel=bwmorph(piel,'open');
@@ -44,15 +45,15 @@ while true
     X=centro(1);
     Y=centro(2);
     disp(X)
-    
+   
     plot(X,Y,'g+')
     %     
     text(X+10,Y,['(',num2str(X),',',num2str(Y),')'],'Color',[1 1 1])
-    if X>40 && X<112
+    if X>20 && X<80
         disp('Forward');
-    elseif X>112
+    elseif X>70
         disp('Left');
-    elseif X<40
+    elseif X<30
         disp('Right');
    end
     hold off
