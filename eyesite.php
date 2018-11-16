@@ -16,9 +16,8 @@
  	
  	 	 <form action="" method="get">
 <br>
-			  <input type="text" id="ip" class="ip" placeholder="Paste Your IP" style="margin-left: 100px"></input><br>
-
-    <div class="col-md-5 col-sm-3 col-xs-6" style="margin-left: 400px;" > <a href="#" class="btn btn-sm animated-button victoria-two" id="D1-on"><img src="arrowup.png" height="100"><br>FORWARD</a> </div>
+    <div class="col-md-2 col-sm-3 col-xs-6" style="margin-left: 20px;" > <a href="homepage.php" class="btn btn-sm animated-button victoria-two"><img src="home.png" height="100"><br>HOME</a></div>
+    <div class="col-md-5 col-sm-3 col-xs-6" style="margin-left: 170px;" > <a href="#" class="btn btn-sm animated-button victoria-two" id="D1-on"><img src="arrowup.png" height="100"><br>FORWARD</a> </div>
 	 <div class="col-md-4 col-sm-3 col-xs-6" style="margin-left: 30px;" > <a href="#" class="btn btn-sm animated-button victoria-two" id="LEFT"><img src="arrowleft.png" height="100"><br>LEFT</a> </div>
 
     <div class="col-md-3 col-sm-3 col-xs-6" style="margin-left: 45px;" > <a href="#" class="btn btn-sm animated-button victoria-three" id="D1-off" ><img src="stop.png" height="100"><br>STOP</a> </div>
@@ -26,7 +25,9 @@
     <div class="separator"></div>
     <div class="col-md-5 col-sm-3 col-xs-6" style="margin-left: 400px;" > <a href="#" class="btn btn-sm animated-button victoria-four" id="D2-on"><img src="arrowdown.png" height="100"><br>BACKWARD</a> </div>
     <div class="separator3"></div>
-		
+	
+			  <input type="text" id="ip" class="ip" placeholder="Paste Your IP" style="margin-left: 570px; margin-top: 10px;" value="192.168.43.11" hidden="true"></input><br>
+	
         </form>
 		<br><br>
 	 </div>
